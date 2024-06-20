@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>My Online CV</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+
+        header {
+            background: #50b3a2;
+            color: #fff;
+            padding: 10px 0;
+            text-align: center;
+        }
+
+        nav {
+            background: #333;
+            color: #fff;
+            padding: 10px 0;
+        }
+
+        nav ul {
+            list-style: none;
+            padding: 0;
+            text-align: center;
+        }
+
+        nav ul li {
+            display: inline;
+            margin: 0 10px;
+        }
+
+        nav ul li a {
+            color: #fff;
+            text-decoration: none;
+        }
+
+        section {
+            padding: 20px;
+            margin: 10px 0;
+            background: #fff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        label, h3, h4 {
+            font-weight: bold;
+        }
+
+        form {
+            margin-top: 20px;
+        }
+
+        form label {
+            display: block;
+            margin: 5px 0;
+        }
+
+        form input[type="text"],
+        form input[type="email"],
+        form input[type="search"],
+        form textarea {
+            width: 100%;
+            padding: 10px;
+            margin: 5px 0 10px 0;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+
+        form button {
+            background: #50b3a2;
+            color: #fff;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+
+        form button:hover {
+            background: #3d8b7d;
+        }
+
+        img {
+            display: block;
+            margin: 0 auto;
+            border-radius: 50%;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>My Online CV</h1>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#bio">Bio</a></li>
+            <li><a href="#education">Education</a></li>
+            <li><a href="#work">Work Experience</a></li>
+            <li><a href="#skills">Skills and Competencies</a></li>
+            <li><a href="#interests">Interests</a></li>
+        </ul>
+    </nav>
+
+    <section>
+        <label for="site-search">Search my online CV:</label>
+        <input type="search" id="site-search" name="q" />
+        <button>Search</button>
+    </section>
+
+    <section>
+        <img src="images/My_Picture.jpg" alt="Me" width="250" />
+        <br><br>
+        <label>Name: Kevin Caraballo Rodrigues</label>
+        <h3>Contact Details:</h3>
+        <label>Email: kevcarrod@gmail.com<br> </label>
+        <label>Mobile: +44 7445716069<br></label>
+
+        <h3>Websites:</h3>
+        <ul>
+            <li><a href="www.linkedin.com/in/Kevin-Caraballo-Rodrigues" target="_blank">LinkedIn</a></li>
+            <li><a href="www.github.com/Kevcar98" target="_blank">GitHub</a></li>
+            <li><a href="www.hyperiondev.com/portfolio/KC24020013534/" target="_blank">HyperionDev Portfolio</a></li>
+        </ul>
+    </section>
+
+
+    <section id="bio">
+        <h3>Bio:</h3>
+        <p>I am a first-class Computer Science graduate from University of Greenwich looking to use my excellent programming and analytical skills. I am a hard worker, reliable, enthusiastic and willing to learn. My knowledge of Python and Java will prepare me for a role within this exciting and challenging technology industry.</p>
+    </section>
+
+    <section id="skills">
+        <h3>Skills and Competencies:</h3>
+        <p>• Python<br>• Java<br>• Github<br>• Cyber Security<br>• Kotlin<br>• I took part in K+ (2-year program at King’s College London) (2015-2017), NCS (National Citizenship Service) (2015), where I contributed to the community by helping a charity called “Home Start” and participated in “Debate Mate”, which helped me improve my debating skills (2017).<br>• Languages: Native English, Fluent Portuguese and Intermediate Spanish.<br>• I have lots of experience with Microsoft Word, Excel and PowerPoint, as I’ve used them since primary school.<br></p>
+    </section>
+
+    <section id="education">
+        <h3>Education:</h3>
+        <p>• CoGrammer HyperionDev (4 Month Bootcamp) currently in a 4-month Bootcamp where I am using Python.<br>• 2017-2021 BSc Computer Science, University of Greenwich, First Class Honours Final Year Project: Produced an app with Java on Android Studio, which tries to implement an EKF SLAM to improve indoor navigation.<br>• 2016-2017 GCE Advanced Level at Bullers Wood School: Computer Science, Further Mathematics and Mathematics.<br>• 2015-2016 GCE Advanced Subsidiary at Bullers Wood School: Computer Science, Further Mathematics, Mathematics and Physics.<br>• 2010-2015 GCSE at St Thomas More RC Comprehensive School: 13 A*- C including English, Maths and Science.<br></p>
+    </section>
+
+    <section id="work">
+        <h3>Work Experience:</h3>
+        <h4>Home Delivery Coordinator - November 2021 – January 2023 - Iceland</h4>
+        <p>• Manage my time to make sure deliveries were out on time.<br>• Communicate with the drivers and colleagues to ensure the deliveries contained the right items.<br>• Attention to detail: ensuring that the correct number of crates are ready for delivery.<br></p>
+        <h4>Volunteer – November 2017 - November 2021 - Barnardo’s</h4>
+        <p>• Excellent customer service with customers as I worked in the front at the till.</p>
+        <h4>Year 10 Work Experience – June 2014 (2 weeks) - Graham Turner And Company Limited</h4>
+        <p>• Excel spreadsheets to input customer information.<br>• Communicating with employees to learn new skill sets<br></p>
+    </section>
+
+
+    <section id="interests">
+        <h3>Interests:</h3>
+        <p>• Gaming<br>• Music and film<br>• Car racing<br></p><br><br>
+    </section>
+
+    
+    <section>
+        <h2>Feedback Form</h2>
+        <form action="/submit-feedback" method="post">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            <br><br>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <br><br>
+
+            <label for="message">Feedback:</label>
+            <textarea id="message" name="message" rows="4" required></textarea>
+            <br><br>
+
+            <button type="submit">Submit</button>
+        </form>
+    </section>
+</body>
+
+</html>

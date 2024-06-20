@@ -1,0 +1,23 @@
+<!-- 
+This is the template for the note detail page.
+
+It extends the base template and includes a card with the note's title and content, 
+and buttons for editing, deleting, and going back to the note list.
+-->
+
+{% extends 'base.html' %}
+{% block title %}Note Detail{% endblock %}
+{% block content %}
+<div class="card">
+        <div class="card-header">
+                <h2>{{ note.title }}</h2>
+        </div>
+        <div class="card-body">
+                <p>{{ note.content }}</p>
+                <a href="{% url 'notes:note_update' note.pk %}" class="btn btn-secondary">Edit</a>
+                <a href="{% url 'notes:note_delete' note.pk %}" class="btn btn-danger"
+                        onclick="return confirm('Are you sure you want to delete this note?');">Delete</a>
+                <a href="{% url 'notes:note_list' %}" class="btn btn-primary">Back to Note List</a>
+        </div>
+</div>
+{% endblock %}

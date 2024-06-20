@@ -1,0 +1,25 @@
+<!-- 
+This is the template for the note deletion confirmation page.
+
+It extends the base template and includes a form for confirming the deletion of a note.
+-->
+
+{% extends 'base.html' %}
+{% block title %}Delete Note{% endblock %}
+{% block content %}
+<!-- A card for the deletion confirmation form -->
+<div class="card">
+    <div class="card-header">
+        <!-- The header asks the user to confirm the deletion -->
+        <h2>Are you sure you want to delete this note?</h2>
+    </div>
+    <div class="card-body">
+        <!-- The form for confirming the deletion -->
+        <form method="post">
+            {% csrf_token %}
+            <button type="submit" class="btn btn-danger">Delete</button>
+            <a href="{% url 'notes:note_list' %}" class="btn btn-secondary">Cancel</a>
+        </form>
+    </div>
+</div>
+{% endblock %}
