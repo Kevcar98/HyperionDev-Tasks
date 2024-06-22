@@ -24,7 +24,7 @@ To run this project locally, follow these steps:
 1. **Clone the repository**:
     ```bash
     git clone https://github.com/Kevcar98/HyperionDev-Tasks.git
-    cd HyperionDev-Tasks/Sticky\ Notes\ Application
+    cd HyperionDev-Tasks/Sticky Notes Application
     ```
 
 2. **Create and activate a virtual environment**:
