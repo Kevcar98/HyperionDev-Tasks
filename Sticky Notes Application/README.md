@@ -79,5 +79,3 @@ After installing the application, you can use it to manage your sticky notes.
 ## Credits
 
 Developed by [Kevin Caraballo Rodrigues](https://github.com/Kevcar98).
-
-Special thanks to HyperionDev for the guidance and resources provided during the development of this project.
