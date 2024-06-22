@@ -22,7 +22,7 @@ To run this project locally, follow these steps:
    git clone https://github.com/yourusername/sticky-notes-application.git
    cd sticky-notes-application
 
-2. **Create and activate a virtual environment:**:
+2. **Create and activate a virtual environment**:
    ```bash
    python -m venv venv
    source venv/bin/activate  # On Windows use `venv\Scripts\activate`
@@ -35,7 +35,7 @@ To run this project locally, follow these steps:
    ```bash
    python manage.py migrate
 
-5. **Run the development server:**:
+5. **Run the development server**:
    ```bash
    python manage.py runserver
 
@@ -76,5 +76,5 @@ Confirm the deletion in the confirmation dialog.
 Access the bulletin board section by navigating to http://127.0.0.1:8000/bulletin/.
 Follow similar steps to create, view, edit, and delete posts.
 
-##Credits
+## Credits
 Developed by Kevin Caraballo Rodrigues.
