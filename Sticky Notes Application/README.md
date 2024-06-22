@@ -45,7 +45,8 @@ After installing the application, you can use it to manage your sticky notes.
 1. **Access the application:**
 Open your web browser and navigate to http://127.0.0.1:8000/.
 
-2. **Create a new note:**
+
+3. **Create a new note:**
 
 Click on "Create New Note".
 Fill in the title and content fields.
@@ -53,15 +54,21 @@ Click "Save" to create the note.
 3. **View a note:**
 
 Click on the title of a note in the list to view its details.
+
+
 4. **Edit a note:**
 
 In the note detail view, click on the "Edit" button.
 Update the title or content.
 Click "Save" to update the note.
+
+
 5. **Delete a note:**
 
 In the note detail view, click on the "Delete" button.
 Confirm the deletion in the confirmation dialog.
+
+
 6. **Bulletin Board Posts:**
 
 Access the bulletin board section by navigating to http://127.0.0.1:8000/bulletin/.
