@@ -7,7 +7,9 @@
 - [Usage](#usage)
 - [Credits](#credits)
 
-cis a web-based platform developed using Django that allows users to create, read, update, and delete notes. This project demonstrates the fundamental aspects of web development, including working with models, views, templates, and forms in Django. Additionally, it showcases how to implement basic user interactions and manage data persistence.
+## Description
+
+The Sticky Notes Application is a web-based platform developed using Django that allows users to create, read, update, and delete notes. This project demonstrates the fundamental aspects of web development, including working with models, views, templates, and forms in Django. Additionally, it showcases how to implement basic user interactions and manage data persistence.
 
 Learning to build this application is essential for understanding the core principles of the Django framework and how to structure a web application using the Model-View-Template (MVT) architecture.
 
